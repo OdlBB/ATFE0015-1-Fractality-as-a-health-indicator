@@ -1,4 +1,4 @@
-# Fractality in Biological Signals - Master's Thesis
+# Fractality in Heart Rate Signals - Master's Thesis
 
 This repository contains the code developed for my master's thesis on fractality in heart rate signals. The aim of the thesis was to explore the presence of fractal patterns in biological data and investigate their potential implications.
 
