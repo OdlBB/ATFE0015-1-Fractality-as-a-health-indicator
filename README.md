@@ -16,12 +16,14 @@ an analysis of the model and fitting the model to actual heart rate signals are 
 
 - `GLM/`: This directory contains two notebooks that briefly overview the potential of using GLMs for modelling the heart rate.
 
--`FractalAnalysis.py`: this files contains the methods to identify the fractal pattern of a signal. Two methods are used:
+- `FractalAnalysis.py`: this files contains the methods to identify the fractal pattern of a signal. Two methods are used:
     - The DFA method: it was implemented in three different ways:
         - `DFA`: The method was built from scratch unsing the various steps of the method
         - `DFA_fast`: The method is the exact same one but different tools were used to speed up the method
         - `DFA2`: The method was implemented in the `MDFA` package
     - The Power Spectrum Analysis is implemented in the `PowerSpectrumAnalysis` method
+
+- `FractalModel.py`: provides the method `IvanovModel` which return a simulated signal of the heart rate.
 
 
 ## References
