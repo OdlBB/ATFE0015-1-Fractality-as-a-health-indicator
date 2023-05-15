@@ -8,11 +8,9 @@ This repository contains the code developed for my master's thesis on fractality
 
 - `Heart-rates-diseases/`: This directory contains the second dataset used in the thesis. Due to privacy restrictions, the actual data files are not included, but information on how to obtain them is provided.
 
-- `DFA/`: This directory contains notebooks performing various analysis on the datasets in order to identify the fractal pattern on a given signal. The main method
-used for this purpose is the DFA method.
+- `DFA/`: This directory contains notebooks performing various analysis on the datasets in order to identify the fractal pattern on a given signal. The main method used for this purpose is the DFA method.
 
-- `Ivanov/`: This directory contains the notebooks used to build the Ivanov model, a stochastic model modeling the heart rate variability. Along with building the model,
-an analysis of the model and fitting the model to actual heart rate signals are performed in several notebooks.
+- `Ivanov/`: This directory contains the notebooks used to build the Ivanov model, a stochastic model modeling the heart rate variability. Along with building the model, an analysis of the model and fitting the model to actual heart rate signals are performed in several notebooks.
 
 - `GLM/`: This directory contains two notebooks that briefly overview the potential of using GLMs for modelling the heart rate.
 
