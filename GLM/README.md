@@ -1,2 +1,0 @@
-- GLM.ipynb: GLM on heart rate signals
-- GLMbins.ipynb: GLM on heart rate signals converted into count time series with time bins 
