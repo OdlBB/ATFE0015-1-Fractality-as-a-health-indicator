@@ -1,0 +1,6 @@
+- `IvanovModel.ipynb`: Building the Ivanov model, assessing it with DFA and analysing the parameters impact
+- The goal of several notebooks is to estimate the parameters $w_{SA}, w_{SS}$ and $w_{PS}$ of the model for real heart rate signals. Three different methods were considered:
+    - Maximum likelihood estimation in `IvanovParameterEstimationMLE.ipynb`
+    - Approximate Bayesian computation in `IvanovParameterEstimationABC.ipynb`
+    - Neural networks in `IvanovParameterEstimationLampe.ipynb`
+- `Results.ipynb` plots and analyses the various parameters estimations made on real heart rate signals. These parameters estimations are saved in `ABC_results` and `NN_results`.
