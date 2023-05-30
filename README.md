@@ -1,4 +1,4 @@
-# Fractality in Heart Rate Signals - Master's Thesis
+# Exploring the Fractal Dynamics of the Heart Rate - Master's Thesis
 
 This repository contains the code developed for my master's thesis on fractality in heart rate signals. The aim of the thesis is to explore the presence of fractal patterns in biological data and investigate their potential implications.
 
@@ -10,11 +10,11 @@ This repository contains the code developed for my master's thesis on fractality
 
 - `DFA/`: This directory contains notebooks performing various analysis on the datasets in order to identify the fractal pattern on a given signal. The main method used for this purpose is the DFA method.
 
-- `Ivanov/`: This directory contains the notebooks used to build the Ivanov model, a stochastic model modeling the heart rate variability. Along with building the model, an analysis of the model and fitting the model to actual heart rate signals are performed in several notebooks.
+- `Ivanov/`: This directory contains the notebooks used to build the Ivanov model, a stochastic model for the heart rate variability. Along with building the model, an analysis of it and fitting the model parameters to actual heart rate signals are performed in several notebooks.
 
 - `GLM/`: This directory contains two notebooks that briefly overview the potential of using GLMs for modelling the heart rate.
 
-- `FractalAnalysis.py`: this files contains the methods to identify the fractal pattern of a signal. Two methods are used:
+- `FractalAnalysis.py`: this file contains the methods to identify the fractal pattern of a signal. Two methods are used:
     - The DFA method: it was implemented in three different ways:
         - `DFA`: The method was built from scratch using the various steps of the method
         - `DFA_fast`: The method is the exact same one but different tools were used to speed up the method
