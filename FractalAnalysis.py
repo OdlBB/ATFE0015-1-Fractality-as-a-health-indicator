@@ -190,6 +190,7 @@ def DFA_fast(s, plot=False, limit_end=500, limit_start=5, num_points=30, order=1
     - limit_start: the smallest scale to be considered
     - num_points: the number of scale to consider (and thus the number of 
                     points on which the alpha coefficient is computed)
+    - order: the order of the detrend
 
     Returns:
     - the alpha coefficient
